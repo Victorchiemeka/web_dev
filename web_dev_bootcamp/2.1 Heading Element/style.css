@@ -1,0 +1,37 @@
+h1{
+
+font-family: 'Arimo', sans-serif;
+text-align: center;
+}
+section{
+    background-color:rgb(0, 0, 0);
+    color:rgb(227, 204, 174) ;
+    border: 10px solid ;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block
+}
+body{
+    background-color: rgb(0, 0, 0)
+}
+img{
+    float: left;
+    max-width: 100%;
+    width: 200px;
+    height: 250px; 
+    border: solid bisque 10px;
+    border-radius: 30px;
+    display: inline-block;
+    
+}
+section > p{
+    position:relative;
+    left: 20px;
+    float: right;
+}
+footer{
+    clear: left;
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    body{
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+    }
+    .container{
+      display: grid ;
+      grid-template-columns: 334px 414px 153px 50px;
+      grid-template-rows:320px 320px 20px;
+      /* background-color: black; */
+      height: 748px;
+      width: 748px;
+     
+    }
+    .item{
+      border-bottom:  #000 10px solid;
+      border-right: #000 10px solid;
+      
+    }
+    .red{
+      background-color: #E72F24;
+     
+    }
+    .white{
+      background-color:#F0F1EC ;
+    }
+    .yellow{
+      background-color: #F9D01E;
+      
+    }
+    .first{
+      grid-column: 2/span2;
+    }
+    /* .border{
+     border:  #000 10px solid;
+    } */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="item red">
+
+    </div>
+
+    <div class="item white first">
+
+    </div>
+
+    <div class="item white ">
+
+    </div>
+
+    <div class="item white  border">
+
+    </div>
+
+    <div class="item white">
+
+    </div>
+
+    <div class="item yellow">
+
+    </div>
+    
+  </div>
+
+  <a href="https://efp.balena.io/open-image-url?imageUrl=<your image URL>"><img src="http://balena.io/flash-with-etcher.png" /></a>
+</body>
+
+</html>

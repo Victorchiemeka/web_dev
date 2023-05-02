@@ -1,0 +1,18 @@
+div{
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;   
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+body{
+    background-color: black;
+}
+img{
+    border: 5px solid white;
+    margin-top: 30px;
+
+}

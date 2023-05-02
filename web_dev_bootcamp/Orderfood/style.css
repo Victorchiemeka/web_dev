@@ -1,0 +1,24 @@
+.first{
+    background-color: lightpink;
+    height: 200px;
+    width: 100%;
+    margin: 50px;
+}
+.logo{
+    height: 100px;
+    width: 200px;
+}
+p{
+    display: inline-block;
+}
+.need{
+    float: right;
+}
+.order{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+body{
+    position: relative;
+}

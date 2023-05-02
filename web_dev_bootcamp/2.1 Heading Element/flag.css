@@ -1,0 +1,51 @@
+.outer{
+    background-color: rgb(190, 2, 2);
+    width: 800px;
+    height: 600px;
+     position: absolute;
+}
+#pset{
+    color: white;
+    font-family: 'Arimo', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif Hebrew', serif;
+text-align: center;
+font-size: 3rem;
+}
+.inner{
+    background-color: rgb(1, 1, 68);
+    width: 800px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+}
+.inner > section{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 250px;
+    position: absolute;
+    right: 100px;
+    left: 150px;
+    top: 20px;
+    bottom: 50px;
+}
+.emeka{
+    color: black;
+}
+section > p{
+    color: black;
+}
+#para{
+    color: black;
+    text-align:center ;
+    font-family: 'Arimo', sans-serif;
+font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif Hebrew', serif;
+text-align: center;
+font-size: 3rem;
+    
+}
